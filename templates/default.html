@@ -1,0 +1,13 @@
+{include=header.html}
+more math {eval=(+ 2 3)}
+Lets do some math, {eval=(* 2 (+ 3 4))}
+<pre>
+  {eval=(format nil "This is formatted ~a text" "here we go")}
+{include=../package.lisp}
+</pre>
+    <content>
+      <div id="content">
+	{content}
+      </div>
+    </content>
+{include=footer.html}
