@@ -1,6 +1,6 @@
 (defpackage :standard-page
   (:use :common-lisp :mvc)
-  (:export :controller :get-pages :standard-page))
+  (:export :controller))
 
 (in-package :standard-page)
 
